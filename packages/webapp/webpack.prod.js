@@ -25,7 +25,7 @@ module.exports = merge(common, {
     new HtmlWebpackPlugin({
       template: path.join(__dirname, 'public/index.html'),
       templateParameters: {
-        GOOGLE_ADDS_ENABLED: process.env.GOOGLE_ADDS_ENABLED ? process.env.GOOGLE_ADDS_ENABLED : false,
+        GOOGLE_ADDS_ENABLED: false,
         NEW_RELIC_ENABLED: process.env.NEW_RELIC_ENABLED ? process.env.NEW_RELIC_ENABLED : false,
 
       },
