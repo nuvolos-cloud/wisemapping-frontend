@@ -1,5 +1,5 @@
 {
     "type": "remote",
     "url": "http://localhost:3000/api/restful/app/config",
-    "apiBaseUrl": "http://localhost:8080",
+    "apiBaseUrl": "http://localhost:8080"
 }
